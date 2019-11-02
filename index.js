@@ -69,7 +69,7 @@ function processLength(list, cb) {
 */
 function processLastItem(stringList, cb) {
   /* CODE HERE */
-  return cb(stringList[stringList -1]);
+  return cb(stringList[stringList.length -1]);
 }
 
 /**
